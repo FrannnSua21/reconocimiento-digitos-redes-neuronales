@@ -9,20 +9,19 @@ Aplicación de escritorio en **Python** para **entrenar, usar, evaluar y compara
 ## Tabla de contenido
 
 1. [Características](#características)
-2. [Capturas de pantalla](#capturas-de-pantalla)
-3. [Requisitos](#requisitos)
-4. [Instalación](#instalación)
-5. [Ejecución](#ejecución)
-6. [Estructura del proyecto](#estructura-del-proyecto)
-7. [Manual de uso](#manual-de-uso)
-8. [Arquitecturas disponibles](#arquitecturas-disponibles)
-9. [Hiperparámetros: qué hace cada uno](#hiperparámetros-qué-hace-cada-uno)
-10. [Mejor configuración probada](#mejor-configuración-probada)
-11. [Cómo funciona por dentro](#cómo-funciona-por-dentro)
-12. [Archivos que genera la aplicación](#archivos-que-genera-la-aplicación)
-13. [Atajos de teclado](#atajos-de-teclado)
-14. [Solución de problemas](#solución-de-problemas)
-15. [Autor](#autor)
+2. [Requisitos](#requisitos)
+3. [Instalación](#instalación)
+4. [Ejecución](#ejecución)
+5. [Estructura del proyecto](#estructura-del-proyecto)
+6. [Manual de uso](#manual-de-uso)
+7. [Arquitecturas disponibles](#arquitecturas-disponibles)
+8. [Hiperparámetros: qué hace cada uno](#hiperparámetros-qué-hace-cada-uno)
+9. [Mejor configuración probada](#mejor-configuración-probada)
+10. [Cómo funciona por dentro](#cómo-funciona-por-dentro)
+11. [Archivos que genera la aplicación](#archivos-que-genera-la-aplicación)
+12. [Atajos de teclado](#atajos-de-teclado)
+13. [Solución de problemas](#solución-de-problemas)
+14. [Autor](#autor)
 
 ---
 
@@ -40,18 +39,6 @@ Aplicación de escritorio en **Python** para **entrenar, usar, evaluar y compara
 - **Evaluación completa**: precisión, recall, F1 por dígito, matriz de confusión y errores más seguros.
 - **Historial de experimentos** persistente, comparación de curvas y exportación a CSV.
 - El entrenamiento corre en un **hilo aparte**: la interfaz nunca se congela.
-
-## Capturas de pantalla
-
-Coloca tus capturas en `docs/img/` y se mostrarán aquí.
-
-| Entrenar | Reconocer |
-|---|---|
-| ![Entrenar](docs/img/entrenar.png) | ![Reconocer](docs/img/reconocer.png) |
-
-| Mapas de activación | Evaluar |
-|---|---|
-| ![Mapas](docs/img/mapas_activacion.png) | ![Evaluar](docs/img/evaluar.png) |
 
 ## Requisitos
 
