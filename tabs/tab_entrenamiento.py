@@ -1,7 +1,4 @@
 """Pestaña 1 · Entrenar: hiperparámetros, curvas en vivo y barridos.
-
-Arriba hay un banner que guía al usuario: indica si los datos aún se descargan, si todavía
-no hay modelo (qué hacer) o si ya existe uno (con un botón para ir a Reconocer).
 """
 import tkinter as tk
 from tkinter import messagebox, ttk

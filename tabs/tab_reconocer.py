@@ -1,7 +1,4 @@
 """Pestaña 2 · Reconocer: lienzo de dibujo y predicción en tiempo real.
-
-Mientras no exista un modelo entrenado, el lienzo queda cubierto por un aviso que
-explica qué hacer (ir a Entrenar o cargar un modelo existente).
 """
 import tkinter as tk
 from datetime import datetime
